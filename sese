@@ -21,7 +21,7 @@ code .
 docker build -t Vishnu .
 docker images
 docker run -d -p --name Vishnu Vishnu
-docker run -d -p 8080:80 –name Vishnu Vishnu
+docker run -d -p 8080:80 --name Vishnu Vishnu
 
 HTML CODE:
 
